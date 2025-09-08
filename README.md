@@ -15,4 +15,4 @@ As such, my notebook for this section illustrates my thought process and how I w
 Due to the lack of complexity in the suggested changes (again, I focused on data and not modelling), this section was rather simple. I implemented a sample automation processor that will take the categories that our classifier has high accuracy for and act on them.
 
 ## Total time breakdown
-I spent the most time in part 2- perhaps the data science training in me wanted to spend more time looking at the data before deciding the next step.
+I spent around 4 hours in total on this task, with the most time in part 2- perhaps the data science training in me wanted to spend more time looking at the data before deciding the next step.
