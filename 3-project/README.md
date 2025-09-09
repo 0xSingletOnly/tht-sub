@@ -1,7 +1,7 @@
 # Automated next step processing
 This folder illustrates how I will implement the next step processing for the three intents that we have high accuracy- `voice_wants_email_follow_up`, `voice_wants_whatsapp_sms_follow_up`, `voice_wrong_number`.
 
-Key implementation details lie in using email or whatsapp client to do a follow up. I have also picked these two intents as they are asynchronous, so more quickly deployable (as opposed to live calls, where we need to get the timing right).
+Key implementation details lie in using email or whatsapp client to do a follow up. I have also picked these two intents as they are asynchronous, so more quickly deployable. Contrast this to live calls, where we currently have inaccurate human generated vs predicted action time- need to fix this before automating.
 
 Lastly, this implementation is standalone and not technically difficult.  I have also intentionally picked the low hanging fruit as there is a lot of uncertainty as to what causes the errors that we have investigated in Part 2.
 
